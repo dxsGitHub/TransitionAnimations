@@ -16,7 +16,7 @@ class DetailViewController: UIViewController {
     
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let isPush = true
+        let isPush = false
         if isPush {
             self.navigationController?.popViewController(animated: true)
         } else {

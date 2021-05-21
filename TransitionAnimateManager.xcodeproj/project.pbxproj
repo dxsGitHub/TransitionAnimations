@@ -17,6 +17,10 @@
 		1D6A2A3026399D620054A327 /* TransitionModalAniManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A2A2D26399D620054A327 /* TransitionModalAniManager.swift */; };
 		1D6A2A3126399D620054A327 /* TransitionPushAniManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A2A2E26399D620054A327 /* TransitionPushAniManager.swift */; };
 		1D6A2A3426399E2E0054A327 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A2A3326399E2E0054A327 /* DetailViewController.swift */; };
+		A9069F7726555028008F202F /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9069F7626555028008F202F /* MineController.swift */; };
+		A9069F7E2655521C008F202F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9069F7D2655521C008F202F /* TabBarViewController.swift */; };
+		A9069F812655536C008F202F /* TransitionTabbarAniManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9069F802655536C008F202F /* TransitionTabbarAniManager.swift */; };
+		A9069F8526555A17008F202F /* InsideTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9069F8426555A17008F202F /* InsideTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		1D6A2A2D26399D620054A327 /* TransitionModalAniManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionModalAniManager.swift; sourceTree = "<group>"; };
 		1D6A2A2E26399D620054A327 /* TransitionPushAniManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionPushAniManager.swift; sourceTree = "<group>"; };
 		1D6A2A3326399E2E0054A327 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A9069F7626555028008F202F /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		A9069F7D2655521C008F202F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A9069F802655536C008F202F /* TransitionTabbarAniManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTabbarAniManager.swift; sourceTree = "<group>"; };
+		A9069F8426555A17008F202F /* InsideTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +75,10 @@
 				1D6A2A2B26399D510054A327 /* TransitionAnimate */,
 				1D6A2A1626399D3B0054A327 /* AppDelegate.swift */,
 				1D6A2A1826399D3B0054A327 /* SceneDelegate.swift */,
+				A9069F7D2655521C008F202F /* TabBarViewController.swift */,
+				A9069F8426555A17008F202F /* InsideTabbarController.swift */,
 				1D6A2A1A26399D3B0054A327 /* ViewController.swift */,
+				A9069F7626555028008F202F /* MineController.swift */,
 				1D6A2A3326399E2E0054A327 /* DetailViewController.swift */,
 				1D6A2A1C26399D3B0054A327 /* Main.storyboard */,
 				1D6A2A1F26399D3B0054A327 /* Assets.xcassets */,
@@ -81,8 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				1D6A2A2C26399D620054A327 /* TransitionAnimateDelegate.swift */,
-				1D6A2A2D26399D620054A327 /* TransitionModalAniManager.swift */,
 				1D6A2A2E26399D620054A327 /* TransitionPushAniManager.swift */,
+				1D6A2A2D26399D620054A327 /* TransitionModalAniManager.swift */,
+				A9069F802655536C008F202F /* TransitionTabbarAniManager.swift */,
 			);
 			path = TransitionAnimate;
 			sourceTree = "<group>";
@@ -157,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9069F8526555A17008F202F /* InsideTabbarController.swift in Sources */,
 				1D6A2A1B26399D3B0054A327 /* ViewController.swift in Sources */,
 				1D6A2A1726399D3B0054A327 /* AppDelegate.swift in Sources */,
 				1D6A2A1926399D3B0054A327 /* SceneDelegate.swift in Sources */,
 				1D6A2A3126399D620054A327 /* TransitionPushAniManager.swift in Sources */,
+				A9069F812655536C008F202F /* TransitionTabbarAniManager.swift in Sources */,
+				A9069F7E2655521C008F202F /* TabBarViewController.swift in Sources */,
+				A9069F7726555028008F202F /* MineController.swift in Sources */,
 				1D6A2A2F26399D620054A327 /* TransitionAnimateDelegate.swift in Sources */,
 				1D6A2A3026399D620054A327 /* TransitionModalAniManager.swift in Sources */,
 				1D6A2A3426399E2E0054A327 /* DetailViewController.swift in Sources */,

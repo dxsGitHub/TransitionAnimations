@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     @objc func tapBtnClickAction() {
         
-        let isPush = true
+        let isPush = false
         
         let detailVc = DetailViewController.init()
         
